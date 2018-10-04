@@ -11,14 +11,16 @@
 header {
   background-color: dodgerblue;
   grid-area: 1/1/2/4;
+ 
 }
 
 .Biography{
   background-color: beige;
   grid-area: 2/2/3/4;
 }
-.Contact{
-  background-color: beige;
+.Sidebar{
+  text-align: left;
+  background-color: gold;
   grid-area: 2/1/6/2;
 }
 .Work{
@@ -34,4 +36,18 @@ header {
   grid-area: 4/2/5/4;
 }
 
+.flex-container{
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 
+.name{
+  border-style: double;
+}
+.pic{
+  
+  align-self: center;
+}
