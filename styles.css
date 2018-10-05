@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  max-width: 900px;
+  max-width: relative;
   position: relative;
   margin: auto;
   grid-gap: 10px;
@@ -19,16 +19,17 @@ header {
   grid-area: 2/2/3/4;
 }
 .Sidebar{
+  padding: 8px;
   text-align: left;
   background-color: #ff6699;
   grid-area: 2/1/6/2;
 }
 .Work{
-  background-color: white;
+  background-color: beige;
   grid-area: 3/2/4/4;
 }
 .skills{
-  background-color: white;
+  background-color: beige;
   grid-area: 5/2/6/4;
 }
 .education{
@@ -55,6 +56,7 @@ header {
   margin-right: auto;
   border-radius: 50%;
   display: block;
+  margin-top: 50px;
 
 
   
