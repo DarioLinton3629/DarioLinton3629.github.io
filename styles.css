@@ -1,6 +1,7 @@
 .container {
   display: grid;
-  max-width: relative;
+
+  max-width: 1000px;
   position: relative;
   margin: auto;
   grid-gap: 10px;
@@ -15,11 +16,14 @@ header {
 }
 
 .Main{
-  padding: 15px;
-  display: flex;
+  padding: 15px;  
+  display: flex; 
+  flex-wrap: wrap;
   flex-direction: column;
   background-color:#D4F7EC;
   grid-area: 2/2/6/4;
+  align-items: left;
+
 }
 .Sidebar{
   padding: 20px;
@@ -36,7 +40,9 @@ header {
   align-items: center;
   color: white;
 }
-
+.para{
+  text-indent: 50px;
+}
 .name{
   border-style: double;
   color: #FCBA12;
@@ -51,7 +57,29 @@ header {
   margin-top: 50px;  
 }
 
-.Work,.Education,.Skills{
-  border-top: double;
-  border-top-color: grey;
+.Work,.Education,.Biography{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: double;
+  border-bottom-color: grey;
+}
+.contact{
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-width: 5px;
+}
+a:link{
+
+  
+  text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    
+    background-color: transparent;
+    text-decoration: none;
 }
