@@ -9,32 +9,24 @@
 
 
 header {
-  background-color: #66ccff;
+  background-color: #9A0794;
   grid-area: 1/1/2/4;
-  font-style: 
+  font-family: Verdana;
 }
 
-.Biography{
-  background-color: white;
-  grid-area: 2/2/3/4;
+.Main{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color:#D4F7EC;
+  grid-area: 2/2/6/4;
 }
 .Sidebar{
-  padding: 8px;
+  padding: 20px;
   text-align: left;
-  background-color: #ff6699;
+  background-color: #448D76;
   grid-area: 2/1/6/2;
-}
-.Work{
-  background-color: beige;
-  grid-area: 3/2/4/4;
-}
-.skills{
-  background-color: beige;
-  grid-area: 5/2/6/4;
-}
-.education{
-  background-color: white;
-  grid-area: 4/2/5/4;
+  
 }
 
 .flex-container{
@@ -47,17 +39,19 @@ header {
 
 .name{
   border-style: double;
-  brod
+  color: #FCBA12;
 }
 .pic{
   width:85%; 
   height:85%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;
+  border-radius: 60%;
   display: block;
-  margin-top: 50px;
+  margin-top: 50px;  
+}
 
-
-  
+.Work,.Education,.Skills{
+  border-top: double;
+  border-top-color: grey;
 }
